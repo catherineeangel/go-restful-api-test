@@ -7,7 +7,8 @@ import (
 	"github.com/aronipurwanto/go-restful-api/model/web"
 	"github.com/aronipurwanto/go-restful-api/repository/mocks"
 	"github.com/go-playground/validator/v10"
-	"github.com/golang/mock/gomock"
+	"go.uber.org/mock/gomock"
+
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

@@ -10,10 +10,10 @@
 package mocks
 
 import (
-	"github.com/golang/mock/gomock"
 	reflect "reflect"
 
 	v2 "github.com/gofiber/fiber/v2"
+	gomock "go.uber.org/mock/gomock"
 )
 
 // MockCategoryController is a mock of CategoryController interface.
