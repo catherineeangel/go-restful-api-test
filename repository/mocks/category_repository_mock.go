@@ -11,10 +11,10 @@ package mocks
 
 import (
 	context "context"
+	"github.com/golang/mock/gomock"
 	reflect "reflect"
 
 	domain "github.com/aronipurwanto/go-restful-api/model/domain"
-	gomock "go.uber.org/mock/gomock"
 )
 
 // MockCategoryRepository is a mock of CategoryRepository interface.
